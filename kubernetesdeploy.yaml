@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: health-care-container
-        image: ganeshnimmakayala/health-app:v1
+        image: ganeshnimmakayala/health-application:v1
         ports:
         - containerPort: 8082
 ---
