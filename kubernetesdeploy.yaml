@@ -23,12 +23,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: bankapp-eta-np-service
+  name: health-app-svc
   labels:
-    app: bankapp-eta-app
+    app: health-care-svc
 spec:
   selector:
-    app: bankapp-eta-app
+    app: health-care
 
   type: NodePort
   ports:
